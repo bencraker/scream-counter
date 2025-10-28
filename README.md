@@ -1,19 +1,19 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Monsters, Inc. Inspired 'Scream Counter'
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+**About**  
+This project personalises a counter app built during the *Making Websites Interactive* module in the Scrimba Frontend Developer course. Inspired by my love of movies, I modified the counter to reflect a tool that might be used to count screams in the universe of *Monsters, Inc.*.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The brief for the project was to modify the app by:  
+- Choosing a title that interests you.  
+- Changing the background image.  
+- Using a custom font.  
+- Modifying the button colours and appearance.  
+- Wrapping the HTML elements in a div and setting a max width.  
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+# Built With
+- HTML  
+- CSS  
+- JavaScript  
 
-Happy Coding!
+# Live Demo
+[Check it out here](https://scream-counter.netlify.app/)
