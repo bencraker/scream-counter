@@ -12,18 +12,16 @@ body {
     background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
-    font-weight: bold;
     text-align: center;
-    display: flex;
-    justify-content: center;
     font-family: DIN, sans-serif;
     color: white;
+    padding: 50px;
 }
 
 #main {
-    max-width: 800px;
-    padding: 50px 50px 10px;
-    margin: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 50px 10px;
     background-color: rgba(147, 157, 206, 0.8);
     border: 10px solid #1261d8;
     border-radius: 50px;
