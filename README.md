@@ -1,19 +1,37 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Scream Counter
+![Screenshot](scream-counter-screenshot.png)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+**About**  
+This project personalises a counter app built during the *Making Websites Interactive* module in the Scrimba Frontend Developer course. Inspired by my love of movies, I modified the counter to reflect a contol panel  that might be used to count screams in the universe of *Monsters, Inc.*.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The brief for the project was to modify the app by:  
+- Choosing a title that interests you.  
+- Changing the background image.  
+- Using a custom font.  
+- Modifying the button colours and appearance.  
+- Wrapping the HTML elements in a div and setting a max width.  
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Features
+**Standard**
+- Increment the displayed counter by 1.
+- Append the current value to a string containing past counts. 
+  
+**Addtional** (features and styling added outside of original scope)  
+- Decrement button to rdeuce the count by one (incase it was accidentally incremented).
+- Reset button added that resets all values back to 0.
+- Digital clock font and text-shadow used to give a realistic glow effect.
+- Images of screw heads used in the corners.
+- Metal background image used on the control panel.
 
-Happy Coding!
+## Course Details
+**Course:** Scrimba Frontend Path  
+**Module:** Web dev basics  
+**Unit:** Build a passenger counter app
+
+## Built With
+- HTML  
+- CSS  
+- JavaScript  
+
+## Live Demo
+[Check it out here](https://scream-counter.netlify.app/)
