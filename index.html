@@ -4,14 +4,27 @@
     </head>
     <body>
         <div id="main">
-            <img id="logo" src="MI-Logo.webp">
+            <div class="screw-cnt">
+                <img class="screw-img" src="assets/images/screw-head.png">
+                <img class="screw-img" src="assets/images/screw-head.png">
+            </div>
+            <img id="logo" src="assets/images/MI-Logo.webp">
             <h1>Scream Counter</h1>
             <h2>Screams Collected Today:</h2>
             <h3 id="count-el">0</h3>
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="btn-cluster">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+                <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
             <p id="save-el">Scream Log History: </p>
-            <p id="footer">© 2025 Monsters Inc. All rights reserved.</p>
+            
+            <div class="screw-cnt">
+                <img class="screw-img" src="assets/images/screw-head.png">
+                <p id="footer">© 2025 Monsters Inc. All rights reserved.</p>
+                <img class="screw-img" src="assets/images/screw-head.png">
+            </div>
         </div>
         <script src="index.js"></script>
     </body>

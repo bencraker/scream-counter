@@ -1,67 +1,102 @@
 @font-face {
     font-family: Monsters;
-    src: url("MonsterAG.ttf");
+    src: url("assets/fonts/MonsterAG.ttf");
 }
 
 @font-face {
     font-family: DIN;
-    src: url("DIN.otf");
+    src: url("assets/fonts/DIN.otf");
+}
+
+@font-face {
+    font-family: Digital7;
+    src: url("assets/fonts/Digital7.ttf")
 }
 
 body {
-    background-image: url("background.jpg");
+    background-image: url("assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
     font-family: DIN, sans-serif;
     color: white;
-    padding: 50px;
+    padding: 20px;
+    margin: 0;
 }
 
 #main {
-    max-width: 80%;
+    width: 600px;
+    background-image: url("assets/images/metal.jpg");
+    background-position: center;
+    background-size: cover;
     margin: 0 auto;
-    padding: 20px 50px 10px;
-    background-color: rgba(147, 157, 206, 0.8);
-    border: 10px solid #1261d8;
+    padding: 20px ;
+    border: 1px solid grey;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 50px black;
+    
+}
+
+.screw-cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screw-img {
+    border-radius: 50%;
+    width: 50px;
 }
 
 #logo {
     width: 80px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
     font-family: Monsters, Times, sans-serif;
     font-size: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     color: #1261d8;
     font-weight: 100;
 }
 
 h2 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin: 0;
     font-weight: 100;
 }
 
 h3 {
     font-size: 100px;
-    margin: 20px 0;
+    margin: 10px auto 20px;
+    background-color: black;
+    width: 50%;
+    padding: 20px 0;
+    border-radius: 5px;
+    font-family: Digital7, sans-serif;
+    color: red;
+    text-shadow: 0 0 30px red;
+}
+
+.btn-cluster {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px 0 ;
     color: white;
     font-weight: 600;
-    width: 50%;
-    margin-bottom: 5px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 #increment-btn {
@@ -69,7 +104,16 @@ button {
     color: black;
 }
 
+#decrement-btn {
+    background: #f8da18;
+    color: black;
+}
+
 #save-btn {
+    background: #870e10;
+}
+
+#reset-btn {
     background: #870e10;
 }
 
@@ -84,7 +128,7 @@ button {
     margin: 10px;
     font-family: sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 200;
     color: black;
 }
 
